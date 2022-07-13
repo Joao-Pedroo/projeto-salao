@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(gilroy-medium.ttf);
+}
+
+:root {
+    --cor01: #04BFB6;
+    --cor02: #4ACFCC;
+    --cor03: #CBF3F2;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    padding: 10px;
+    text-align: right;
+}
+
+nav > a {
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+    color: #1D1C1F;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-image: url(imagens/WhatsApp\ Image\ 2022-03-11\ at\ 12.03.23.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+header > h1 {
+    position: absolute;
+    width: 641px;
+    height: 116px;
+    left: 56px;
+    top: 343px;
+    font-family: 'Vladimir Script', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 116px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+header > p {
+    position: absolute;
+    width: 540px;
+    height: 66px;
+    left: 87px;
+    top: 459px;
+    color: white;
+    font-family: 'Gilroy-Medium';
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    letter-spacing: -0.03em;
+    padding-top: 20px;
+}
+
+main {
+    padding: 80px;
+}
+
+main > h1 {
+    font-family: 'Gilroy-Medium';
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: var(--cor01);
+}
+
+main > p {
+    font-family: 'Gilroy-Medium';
+    font-size: 1.2em;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: var(--cor01);
+}
+
+picture > img {
+    margin: auto;
+}
