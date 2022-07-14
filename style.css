@@ -9,6 +9,10 @@
     --cor01: #04BFB6;
     --cor02: #4ACFCC;
     --cor03: #CBF3F2;
+    --cor04: #274156;
+
+    --fonte-padrao01: 'Gilroy-Medium', Verdana;
+    --fonte-titulo: 'Vladimir Script', cursive;
 }
 
 * {
@@ -97,4 +101,45 @@ main > p {
 
 picture > img {
     margin: auto;
+}
+
+section {
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    background-color: var(--cor04);
+    padding: 10px;
+    columns: 4;
+    color: white;
+    height: 272px;
+    text-decoration: none;
+}
+
+section > h2 {
+    font-weight: bold;
+    padding: 20px;
+}
+
+section > a {
+    text-decoration: none;
+}
+
+section a:hover {
+    color: var(--cor02);
+    text-decoration: underline;
+}
+
+section > ul {
+    list-style: none;
+}
+
+footer {
+    background-color: var(--cor04);
+    font-family: var(--fonte-padrao01);
+    color: white;
+    height: 186px;
+    text-align: center;
+}
+
+footer > p {
+    padding: 10px;
 }
